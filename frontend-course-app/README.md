@@ -1,4 +1,4 @@
-#Component details 
+##Component details 
 
 InstructorApp.jsx : React Component representing the high-level structure of the application. Routing is defined in this file.
 ListCoursesComponent.jsx - React Component for listing all the courses for an instructor.
