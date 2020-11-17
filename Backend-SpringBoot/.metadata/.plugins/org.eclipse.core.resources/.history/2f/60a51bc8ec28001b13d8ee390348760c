@@ -1,0 +1,5 @@
+package com.rakesh.fullstack.crud.config;
+
+public class SwaggerConfig {
+
+}
