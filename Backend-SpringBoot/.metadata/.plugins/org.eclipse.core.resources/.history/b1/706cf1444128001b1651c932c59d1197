@@ -1,0 +1,8 @@
+package com.rakesh.fullstack.crud.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class CoursesHardcodedService {
+
+}

@@ -1,0 +1,5 @@
+package com.rakesh.fullstack.crud.service;
+
+public class CoursesHardcodedService {
+
+}
