@@ -1,4 +1,4 @@
-##Component details 
+## Component details 
 
 InstructorApp.jsx : React Component representing the high-level structure of the application. Routing is defined in this file.
 ListCoursesComponent.jsx - React Component for listing all the courses for an instructor.
@@ -6,7 +6,7 @@ CourseComponent.jsx - React Component for editing Course Details and creating a 
 CourseDataService.js - Service using axios framework to make the Backend REST API Calls.
 
 
-#packages needed
+# packages needed
 1.npm add axios
 Axios is a Promise based HTTP client for the browser and node.js
 2.npm add react-router-dom
