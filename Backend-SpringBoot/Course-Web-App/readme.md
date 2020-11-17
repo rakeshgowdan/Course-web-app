@@ -1,7 +1,8 @@
-Swagger API enabled with basic config
+# Swagger API enabled with basic config
 
-Dependencies Needed
+## Dependencies Needed
 
+```
 <dependency>
     <groupId>io.springfox</groupId>
     <artifactId>springfox-boot-starter</artifactId>
@@ -12,9 +13,9 @@ Dependencies Needed
     <artifactId>springfox-swagger-ui</artifactId>
     <version>3.0.0-SNAPSHOT</version>
 </dependency>
+```
+# UI link --> http://localhost:8080/swagger-ui/
 
-UI link --> http://localhost:8080/swagger-ui/
+# JSON docs --> http://localhost:8080/v3/api-docs
 
-JSON docs --> http://localhost:8080/v3/api-docs
-
-Example ref-> http://muralitechblog.com/swagger-rest-api-dcoumentation-for-spring-boot/
+# Example ref-> http://muralitechblog.com/swagger-rest-api-dcoumentation-for-spring-boot/
