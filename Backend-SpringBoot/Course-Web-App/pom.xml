@@ -6,12 +6,12 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.4.0</version>
+		<version>2.6.6</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rakesh.fullstack.crud</groupId>
-	<artifactId>Course-Web-App</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>course-web-app</artifactId>
+	<version>0.0.1</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -64,7 +64,14 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<image>
+					<name>rakeshgowda3101/${project.artifactId}:${project.version}</name>
+					<pullPolicy>IF_NOT_PRESENT</pullPolicy>
+					</image>
+				</configuration>
 			</plugin>
+			
 		</plugins>
 	</build>
 
