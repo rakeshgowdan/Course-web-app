@@ -14,8 +14,8 @@
     <version>3.0.0-SNAPSHOT</version>
 </dependency>
 ```
-# UI link --> http://localhost:8080/swagger-ui/
+## UI link --> http://localhost:port/swagger-ui/
 
-# JSON docs --> http://localhost:8080/v3/api-docs
+## JSON docs --> http://localhost:port/v3/api-docs
 
-# Example ref-> http://muralitechblog.com/swagger-rest-api-dcoumentation-for-spring-boot/
+## Example ref-> http://muralitechblog.com/swagger-rest-api-dcoumentation-for-spring-boot/
